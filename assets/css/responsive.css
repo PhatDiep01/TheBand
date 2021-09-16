@@ -1,0 +1,84 @@
+/* MOBILE AND TABLET */
+@media (max-width: 1023px){
+    .btn{
+        padding: 15px 16px;
+    }
+    .contact-content .form-control {
+        padding: 14px;
+    }
+    .socials-list {
+        font-size: 48px;
+    }
+    #footer .socials-list a{
+        margin: 0 8px;
+    }
+    #footer .copyright a{
+        padding: 8px 0;
+        display: inline-block;
+    }
+}
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1023px){
+    .contact-info{
+        line-height: 2;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 739px){
+    
+    #nav{
+        display: block;
+    }
+    
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #header .ico-seach{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #000000;
+        
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px  38px;
+        
+    }
+    .member-list.member-name{
+        margin: 15px 0;
+    }
+    .member-item{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    #content .member-img{
+        width: 60%;
+    }
+    .mobile-col-full{
+        width: 100%;
+        
+    }
+    .tour-section{
+        padding: 64px 0;
+    }
+    .content-section{
+        padding-left: 0px;
+        padding-right: 0;
+    }
+    .mobile-mt8{
+        margin-top: 8px;
+    }
+   
+}
